@@ -1,0 +1,90 @@
+[
+    {
+        "id": "Chevrolet_2025",
+        "name": "Chevrolet 2025",
+        "sponsor": "Chevrolet",
+        "description": "Official Chevrolet manufacturer logo for the 2025 season.",
+        "price": 0,
+        "image": "/assets/decals/Chevrolet_2025.webp",
+        "width": 84
+    },
+    {
+        "id": "Chevrolet_logo",
+        "name": "Chevrolet logo",
+        "sponsor": "Chevrolet",
+        "description": "Official Chevrolet manufacturer logo for the 2025 season.",
+        "price": 0,
+        "image": "/assets/decals/Chevrolet_logo.webp",
+        "width": 84
+    },
+    {
+        "id": "CocaCola_SponsorshipLogo",
+        "name": "Coca-Cola",
+        "sponsor": "Coca-Cola",
+        "description": "Iconic Coca-Cola sponsorship logo featuring the classic red branding.",
+        "price": 3500,
+        "image": "/assets/decals/CocaCola_SponsorshipLogo.webp",
+        "width": 105
+    },
+    {
+        "id": "CocaCola_red",
+        "name": "Coca-Cola-red",
+        "sponsor": "Coca-Cola",
+        "description": "Iconic Coca-Cola sponsorship logo featuring the classic red branding.",
+        "price": 3500,
+        "image": "/assets/decals/CocaCola_red.png",
+        "width": 105
+    },
+    {
+        "id": "Fanatics_SponsorshipLogo",
+        "name": "Fanatics",
+        "sponsor": "Fanatics",
+        "description": "Official Fanatics merchandise sponsor logo with branded design.",
+        "price": 5000,
+        "image": "/assets/decals/Fanatics_SponsorshipLogo.webp",
+        "width": 105
+    },
+    {
+        "id": "FloRacing_ignite_white",
+        "name": "FloRacing Ignite",
+        "description": "FloRacing ignite white logo for racing enthusiasts and subscribers.",
+        "price": 7500,
+        "image": "/assets/decals/FloRacing_ignite_white.webp",
+        "width": 105
+    },
+    {
+        "id": "Ford_Logo",
+        "name": "Ford Performance",
+        "sponsor": "FloRacing",
+        "description": "Official Ford manufacturer logo representing performance engineering.",
+        "price": 0,
+        "image": "/assets/decals/Ford_Logo.webp",
+        "width": 84
+    },
+    {
+        "id": "Goodyear",
+        "name": "Goodyear",
+        "sponsor": "Goodyear",
+        "description": "Legendary Goodyear tire brand logo with racing heritage.",
+        "price": 3500,
+        "image": "/assets/decals/Goodyear.webp",
+        "width": 84
+    },
+    {
+        "id": "iracing",
+        "name": "iRacing",
+        "sponsor": "iRacing",
+        "description": "Official iRacing simulator platform logo for virtual racing.",
+        "price": 5000,
+        "image": "/assets/decals/iracing.webp",
+        "width": 88
+    },
+    {
+        "id": "ME_DarkBackground",
+        "name": "Motorsport Engine",
+        "sponsor": "Motorsport Engine",
+        "description": "Motorsport Engine logo with dark background for premium look.",
+        "price": 7500,
+        "image": "/assets/decals/ME_DarkBackground.webp"
+    }
+]

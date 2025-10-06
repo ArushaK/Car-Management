@@ -1,0 +1,722 @@
+[
+  {
+    "id": 2330114,
+    "part_image": "https://www.iknowauto.com/public/media/images/877/7ea/a6a/a08/340/0/877ea6a085d6a4e25dffc693679c9bc9.png?v=1685570889",
+    "name": "Fairfax",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/fairfax/fairfax.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/fairfax/brushed/fairfax.gltf"
+  },
+  {
+    "id": 2330212,
+    "part_image": "https://www.iknowauto.com/public/media/images/171/121/1c8/8f5/340/0/17121c8f573a3d28f2c2a675f92218c1.png?v=1685570888",
+    "name": "Fairfax",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/fairfax/fairfax.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/fairfax/gold/fairfax.gltf"
+  },
+  {
+    "id": 2330310,
+    "part_image": "https://www.iknowauto.com/public/media/images/3f3/3a5/52d/d82/340/0/3f3a52d82cd56e4d501d64cccefa89fb.png?v=1685570883",
+    "name": "Fairfax",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/fairfax/fairfax.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/fairfax/rose_gold/fairfax.gltf"
+  },
+  {
+    "id": 2330408,
+    "part_image": "https://www.iknowauto.com/public/media/images/180/096/60e/ed7/340/0/180960ed77d994263f62b289afdc0187.png?v=1685570885",
+    "name": "Southside",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/southside/southside.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/southside/brushed/southside.gltf"
+  },
+  {
+    "id": 2330506,
+    "part_image": "https://www.iknowauto.com/public/media/images/e5d/d10/0a7/7c5/340/0/e5d10a7c5239c79bfcb5a5241f16182f.png?v=1685570883",
+    "name": "Southside",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/southside/southside.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/southside/gold/southside.gltf"
+  },
+  {
+    "id": 2330604,
+    "part_image": "https://www.iknowauto.com/public/media/images/f8c/cb7/7b6/665/340/0/f8cb7b665900fdf6f71ad456d24efa52.png?v=1685570889",
+    "name": "Southside",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/southside/southside.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/southside/rose_gold/southside.gltf"
+  },
+  {
+    "id": 2330702,
+    "part_image": "https://www.iknowauto.com/public/media/images/303/325/590/056/340/0/3032590563d5f2824d7ce0cd4d61ba12.png?v=1685570884",
+    "name": "Pueblo",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/pueblo/pueblo.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/pueblo/brushed/pueblo.gltf"
+  },
+  {
+    "id": 2330800,
+    "part_image": "https://www.iknowauto.com/public/media/images/004/453/3d9/9a3/340/0/00453d9a33c72260279612e35b7efd97.png?v=1685570884",
+    "name": "Pueblo",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/pueblo/pueblo.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/pueblo/gold/pueblo.gltf"
+  },
+  {
+    "id": 2330898,
+    "part_image": "https://www.iknowauto.com/public/media/images/aa0/0cf/fb9/9f6/340/0/aa0cfb9f607154e841f9fe0893d07ff6.png?v=1685570886",
+    "name": "Pueblo",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/pueblo/pueblo.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/pueblo/rose_gold/pueblo.gltf"
+  },
+  {
+    "id": 2330996,
+    "part_image": "https://www.iknowauto.com/public/media/images/3b6/6f5/57b/b2a/340/0/3b6f57b2a44857016224735f1b68a0c6.png?v=1685570887",
+    "name": "Kokomo",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/kokomo/kokomo.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/kokomo/brushed/kokomo.gltf"
+  },
+  {
+    "id": 2331094,
+    "part_image": "https://www.iknowauto.com/public/media/images/2eb/b46/6a2/2f2/340/0/2eb46a2f2bed281a7fb3eeaef2c782ef.png?v=1685570888",
+    "name": "Kokomo",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/kokomo/kokomo.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/kokomo/gold/kokomo.gltf"
+  },
+  {
+    "id": 2331192,
+    "part_image": "https://www.iknowauto.com/public/media/images/b12/2a4/422/245/340/0/b12a422458ca54135a6fb87f1a7dba96.png?v=1685570889",
+    "name": "Kokomo",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/kokomo/kokomo.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/kokomo/rose_gold/kokomo.gltf"
+  },
+  {
+    "id": 2331290,
+    "part_image": "https://www.iknowauto.com/public/media/images/1fb/b1a/ae6/674/340/0/1fb1ae674a012e739b1ac51f2f1813a7.png?v=1685570886",
+    "name": "Fillmore",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/fillmore/fillmore.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/fillmore/brushed/fillmore.gltf"
+  },
+  {
+    "id": 2331388,
+    "part_image": "https://www.iknowauto.com/public/media/images/6f1/1d3/3f3/3b7/340/0/6f1d3f3b75ddb7d3358ae98ec1d7d083.png?v=1685570886",
+    "name": "Fillmore",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/fillmore/fillmore.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/fillmore/gold/fillmore.gltf"
+  },
+  {
+    "id": 2331486,
+    "part_image": "https://www.iknowauto.com/public/media/images/2de/e60/072/22c/340/0/2de60722ca1c56317d2d79783545c1cc.png?v=1685570886",
+    "name": "Fillmore",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/fillmore/fillmore.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/fillmore/rose_gold/fillmore.gltf"
+  },
+  {
+    "id": 2331584,
+    "part_image": "https://www.iknowauto.com/public/media/images/c36/6dc/cf1/165/340/0/c36dcf165efeabdc61bbadde5bc91e2a.png?v=1685621957",
+    "name": "Profile",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/profile/profile.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/profile/brushed/profile.gltf"
+  },
+  {
+    "id": 2331682,
+    "part_image": "https://www.iknowauto.com/public/media/images/954/4e5/504/40c/340/0/954e5040c11aaf8c2bcf9a5cd45eba6a.png?v=1685641777",
+    "name": "Profile",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/profile/profile.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/profile/chrome/profile.gltf"
+  },
+  {
+    "id": 2331780,
+    "part_image": "https://www.iknowauto.com/public/media/images/044/401/15c/cd9/340/0/044015cd98ae13cf19e3e593279b54d4.png?v=1685641781",
+    "name": "Bulgari",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/bulgari/bulgari.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/bulgari/brushed/bulgari.gltf"
+  },
+  {
+    "id": 2331878,
+    "part_image": "https://www.iknowauto.com/public/media/images/bf7/761/186/641/340/0/bf7618641dc3952bddbd27d2be0a5a4c.png?v=1681998508",
+    "name": "International",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/international/international.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/international/brushed/international.gltf"
+  },
+  {
+    "id": 2331976,
+    "part_image": "https://www.iknowauto.com/public/media/images/785/5f5/5a4/4cf/340/0/785f5a4cf5c65b85b57fddd527164d17.png?v=1681998508",
+    "name": "International",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/international/international.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/international/chrome/international.gltf"
+  },
+  {
+    "id": 2332074,
+    "part_image": "https://www.iknowauto.com/public/media/images/745/5da/a1b/b8f/340/0/745da1b8f3a546a379052f25b83e09c1.png?v=1685570936",
+    "name": "Royal",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/royal/royal.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/royal/brushed/royal.gltf"
+  },
+  {
+    "id": 2332172,
+    "part_image": "https://www.iknowauto.com/public/media/images/86b/bc5/5e4/42a/340/0/86bc5e42ab8a965e53411558182367e3.png?v=1685570937",
+    "name": "Royal",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/royal/royal.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/royal/chrome/royal.gltf"
+  },
+  {
+    "id": 2332270,
+    "part_image": "https://www.iknowauto.com/public/media/images/75c/c07/7bc/c1a/340/0/75c07bc1aa10a0b56b11afa27961ed35.png?v=1685570935",
+    "name": "Northtown",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/northtown/northtown.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown/brushed/northtown.gltf"
+  },
+  {
+    "id": 2332312,
+    "part_image": "https://www.iknowauto.com/public/media/images/75c/c07/7bc/c1a/340/0/75c07bc1aa10a0b56b11afa27961ed35.png?v=1685570935",
+    "name": "Northtown Deep Lip",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/northtown_5in/northtown_5in_lip.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown_5in/brushed/northtown_5in_lip.gltf"
+  },
+  {
+    "id": 2332368,
+    "part_image": "https://www.iknowauto.com/public/media/images/16c/c46/6bc/c6c/340/0/16c46bc6c0e096817f2c3328e23b035e.png?v=1685570937",
+    "name": "Northtown",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/northtown/northtown.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown/gold/northtown.gltf"
+  },
+  {
+    "id": 2332410,
+    "part_image": "https://www.iknowauto.com/public/media/images/16c/c46/6bc/c6c/340/0/16c46bc6c0e096817f2c3328e23b035e.png?v=1685570937",
+    "name": "Northtown Deep Lip",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/northtown_5in/northtown_5in_lip.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown_5in/gold/northtown_5in_lip.gltf"
+  },
+  {
+    "id": 2332466,
+    "part_image": "https://www.iknowauto.com/public/media/images/0c7/786/6ce/e7d/340/0/0c786ce7d3cb81f28bdf8bc2a25771df.png?v=1685570936",
+    "name": "Northtown",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/northtown/northtown.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown/rose_gold/northtown.gltf"
+  },
+  {
+    "id": 2332508,
+    "part_image": "https://www.iknowauto.com/public/media/images/0c7/786/6ce/e7d/340/0/0c786ce7d3cb81f28bdf8bc2a25771df.png?v=1685570936",
+    "name": "Northtown Deep Lip",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/northtown_5in/northtown_5in_lip.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown_5in/rose_gold/northtown_5in_lip.gltf"
+  },
+  {
+    "id": 2332564,
+    "part_image": "https://www.iknowauto.com/public/media/images/0c2/244/4bd/dab/340/0/0c244bdabe33b22318350581af9c511a.png?v=1685570935",
+    "name": "Northtown",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/northtown/northtown.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown/chrome/northtown.gltf"
+  },
+  {
+    "id": 2332606,
+    "part_image": "https://www.iknowauto.com/public/media/images/0c2/244/4bd/dab/340/0/0c244bdabe33b22318350581af9c511a.png?v=1685570935",
+    "name": "Northtown Deep Lip",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/northtown_5in/northtown_5in_lip.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/northtown_5in/chrome/northtown_5in_lip.gltf"
+  },
+  {
+    "id": 2332662,
+    "part_image": "https://www.iknowauto.com/public/media/images/128/8a0/07e/e3a/340/0/128a07e3a01b842fcc84ebb22647381d.png?v=1685570938",
+    "name": "Lafayette",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/lafayette/lafayette.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/lafayette/brushed/lafayette.gltf"
+  },
+  {
+    "id": 2332760,
+    "part_image": "https://www.iknowauto.com/public/media/images/416/604/4ee/e9f/340/0/41604ee9f5650a03b9829541ed10294c.png?v=1648694449",
+    "name": "Lafayette",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/lafayette/lafayette.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/lafayette/gold/lafayette.gltf"
+  },
+  {
+    "id": 2332858,
+    "part_image": "https://www.iknowauto.com/public/media/images/cbe/eb3/3d4/42c/340/0/cbeb3d42c2321f1966c2c4dff5f919bf.png?v=1685570938",
+    "name": "Lafayette",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/lafayette/lafayette.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/lafayette/rose_gold/lafayette.gltf"
+  },
+  {
+    "id": 2332956,
+    "part_image": "https://www.iknowauto.com/public/media/images/927/735/55e/e33/340/0/927355e33d48c2c230fd30dd88baa9b0.png?v=1685570938",
+    "name": "Lafayette",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/lafayette/lafayette.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/lafayette/chrome/lafayette.gltf"
+  },
+  {
+    "id": 2333054,
+    "part_image": "https://www.iknowauto.com/public/media/images/9d3/364/4be/e20/340/0/9d364be20360659f8fac3c46a333c714.png?v=1685570936",
+    "name": "Cicero",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/cicero/cicero.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/cicero/brushed/cicero.gltf"
+  },
+  {
+    "id": 2333152,
+    "part_image": "https://www.iknowauto.com/public/media/images/23c/ce7/7d5/5ce/340/0/23ce7d5ceebf3fbc0e283bad46def0a5.png?v=1685570935",
+    "name": "Cicero",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/cicero/cicero.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/cicero/gold/cicero.gltf"
+  },
+  {
+    "id": 2333250,
+    "part_image": "https://www.iknowauto.com/public/media/images/071/18c/cc1/1a0/340/0/0718cc1a005d808ff4e0efc1f2b7108e.png?v=1685590508",
+    "name": "Cicero",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/cicero/cicero.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/cicero/rose_gold/cicero.gltf"
+  },
+  {
+    "id": 2333348,
+    "part_image": "https://www.iknowauto.com/public/media/images/cb5/55a/a74/4c1/340/0/cb55a74c14fcc767ea4add8cb53f2993.png?v=1685590504",
+    "name": "SinCity",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/sin_city/sin_city.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/sin_city/brushed/sin_city.gltf"
+  },
+  {
+    "id": 2333446,
+    "part_image": "https://www.iknowauto.com/public/media/images/072/2b9/9d7/746/340/0/072b9d7469b1ef06050a072ba038e175.png?v=1648694450",
+    "name": "SinCity",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/sin_city/sin_city.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/sin_city/gold/sin_city.gltf"
+  },
+  {
+    "id": 2333544,
+    "part_image": "https://www.iknowauto.com/public/media/images/3da/a0c/c4e/e7d/340/0/3da0c4e7df47c0cc60755acb8968ff11.png?v=1663811456",
+    "name": "SinCity",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/sin_city/sin_city.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/sin_city/rose_gold/sin_city.gltf"
+  },
+  {
+    "id": 2333642,
+    "part_image": "https://www.iknowauto.com/public/media/images/5c2/2be/e29/941/340/0/5c2be2941316d47392312e094b2405d4.png?v=1685590501",
+    "name": "SinCity",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/sin_city/sin_city.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/sin_city/chrome/sin_city.gltf"
+  },
+  {
+    "id": 2333740,
+    "part_image": "https://www.iknowauto.com/public/media/images/5ed/d6d/dc4/445/340/0/5ed6dc4456b5120fb071f0e3badbae5d.png?v=1685590511",
+    "name": "Medusa",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/medusa/medusa.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/medusa/brushed/medusa.gltf"
+  },
+  {
+    "id": 2333838,
+    "part_image": "https://www.iknowauto.com/public/media/images/11f/ff3/36b/b43/340/0/11ff36b43c9bdf99846a8cdf91b410fb.png?v=1685590505",
+    "name": "Medusa",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/medusa/medusa.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/medusa/gold/medusa.gltf"
+  },
+  {
+    "id": 2333936,
+    "part_image": "https://www.iknowauto.com/public/media/images/3b3/362/2e8/878/340/0/3b362e878f02fb28d3f117d7ebedb06c.png?v=1685590508",
+    "name": "Medusa",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/medusa/medusa.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/medusa/rose_gold/medusa.gltf"
+  },
+  {
+    "id": 2334426,
+    "part_image": "https://www.iknowauto.com/public/media/images/899/9d1/1b1/1de/340/0/899d1b1de466abf3ea6917d9d72097dd.png?v=1685590516",
+    "name": "Cashville",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/cashville/cashville.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/cashville/brushed/cashville.gltf"
+  },
+  {
+    "id": 2334524,
+    "part_image": "https://www.iknowauto.com/public/media/images/21d/db9/9f0/022/340/0/21db9f0224a2f7907222697d656bf913.png?v=1685590507",
+    "name": "Cashville",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/cashville/cashville.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/cashville/gold/cashville.gltf"
+  },
+  {
+    "id": 2334622,
+    "part_image": "https://www.iknowauto.com/public/media/images/033/3c3/372/27b/340/0/033c3727b4768113678c175fdaf15ecd.png?v=1685590507",
+    "name": "Cashville",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/cashville/cashville.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/cashville/chrome/cashville.gltf"
+  },
+  {
+    "id": 2334720,
+    "part_image": "https://www.iknowauto.com/public/media/images/03b/ba4/4a0/0a1/340/0/03ba4a0a1e06679efa88799c2a31dcea.png?v=1648694452",
+    "name": "Decatur",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/decatur/decatur.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/decatur/brushed/decatur.gltf"
+  },
+  {
+    "id": 2334818,
+    "part_image": "https://www.iknowauto.com/public/media/images/b0c/c4f/fbe/efc/340/0/b0c4fbefc4ed23975b0c27b536a4b26d.png?v=1685590511",
+    "name": "Decatur",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/decatur/decatur.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/decatur/gold/decatur.gltf"
+  },
+  {
+    "id": 2334916,
+    "part_image": "https://www.iknowauto.com/public/media/images/cb9/9ca/ae1/18f/340/0/cb9cae18ffc41a0e91e81f9c2510352c.png?v=1648694453",
+    "name": "Decatur",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/decatur/decatur.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/decatur/rose_gold/decatur.gltf"
+  },
+  {
+    "id": 2335014,
+    "part_image": "https://www.iknowauto.com/public/media/images/b6a/aff/fc4/4a8/340/0/b6affc4a813ab5938a4648dbedf0d6b8.png?v=1685590515",
+    "name": "Decatur",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/decatur/decatur.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/decatur/chrome/decatur.gltf"
+  },
+  {
+    "id": 2335112,
+    "part_image": "https://www.iknowauto.com/public/media/images/991/126/6c8/89f/340/0/99126c89fc930da595ed41175edfd0cb.png?v=1685590515",
+    "name": "Buckeye",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/buckeye/buckeye.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/buckeye/brushed/buckeye.gltf"
+  },
+  {
+    "id": 2335210,
+    "part_image": "https://www.iknowauto.com/public/media/images/90b/bea/afb/bdc/340/0/90beafbdcab1a7472430944574ac3cbc.png?v=1648694453",
+    "name": "Buckeye",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/buckeye/buckeye.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/buckeye/gold/buckeye.gltf"
+  },
+  {
+    "id": 2335308,
+    "part_image": "https://www.iknowauto.com/public/media/images/674/432/2da/a8c/340/0/67432da8c165fd0e37f0f343802563e1.png?v=1685590510",
+    "name": "Buckeye",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/buckeye/buckeye.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/buckeye/rose_gold/buckeye.gltf"
+  },
+  {
+    "id": 2335406,
+    "part_image": "https://www.iknowauto.com/public/media/images/d9d/de7/737/7a6/340/0/d9de737a6051c2e7c99409f582408f0d.png?v=1648694454",
+    "name": "Biscayne",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/biscayne/biscayne.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/biscayne/brushed/biscayne.gltf"
+  },
+  {
+    "id": 2335504,
+    "part_image": "https://www.iknowauto.com/public/media/images/d8c/c85/597/71c/340/0/d8c85971cae965481f3ccf331eb6baf7.png?v=1680141690",
+    "name": "Biscayne",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/biscayne/biscayne.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/biscayne/chrome/biscayne.gltf"
+  },
+  {
+    "id": 2335602,
+    "part_image": "https://www.iknowauto.com/public/media/images/e28/8b5/5ff/fb6/340/0/e28b5ffb6b041f374c03cb9a18635c43.png?v=1648694454",
+    "name": "Oak Cliff",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/oak_cliff/oak_cliff.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/oak_cliff/brushed/oak_cliff.gltf"
+  },
+  {
+    "id": 2335700,
+    "part_image": "https://www.iknowauto.com/public/media/images/3b0/0b0/054/4c9/340/0/3b0b054c9d28727599dc4d604b6891a5.png?v=1680141689",
+    "name": "Avenue",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/avenue/avenue.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/avenue/brushed/avenue.gltf"
+  },
+  {
+    "id": 2335798,
+    "part_image": "https://www.iknowauto.com/public/media/images/dc9/964/477/76d/340/0/dc964776d499e88278b767cb3ccac6dc.png?v=1648694454",
+    "name": "Dagger",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/dagger/dagger.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/dagger/brushed/dagger.gltf"
+  },
+  {
+    "id": 2335896,
+    "part_image": "https://www.iknowauto.com/public/media/images/346/6de/eb4/454/340/0/346deb4543c31d68cd294c26cbd871c1.png?v=1648694454",
+    "name": "Dagger",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/dagger/dagger.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/dagger/gold/dagger.gltf"
+  },
+  {
+    "id": 2335994,
+    "part_image": "https://www.iknowauto.com/public/media/images/f38/8b9/973/3f3/340/0/f38b973f318c8dd3c291dcf667d782e5.png?v=1680040603",
+    "name": "Dagger",
+    "caption": "Artis Forged",
+    "path": "rose_gold",
+    "part_url": "models/parts/Wheels/artis/dagger/dagger.gltf",
+    "finish_name": "Rose Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/dagger/rose_gold/dagger.gltf"
+  },
+  {
+    "id": 2336092,
+    "part_image": "https://www.iknowauto.com/public/media/images/90e/ec8/830/018/340/0/90ec830183235e679d4f9859e3071f07.png?v=1663607354",
+    "name": "Dagger",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/dagger/dagger.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/dagger/chrome/dagger.gltf"
+  },
+  {
+    "id": 2336190,
+    "part_image": "https://www.iknowauto.com/public/media/images/81e/ebb/bb4/480/340/0/81ebbb480389e4a05f50f5aa18f0127a.png?v=1684508359",
+    "name": "Spartacus",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/spartacus/spartacus.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/spartacus/brushed/spartacus.gltf"
+  },
+  {
+    "id": 2336288,
+    "part_image": "https://www.iknowauto.com/public/media/images/8be/eb8/832/240/340/0/8beb8324078fa0400bce359301b94ae9.png?v=1680141686",
+    "name": "Spartacus",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/spartacus/spartacus.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/spartacus/gold/spartacus.gltf"
+  },
+  {
+    "id": 2336386,
+    "part_image": "https://www.iknowauto.com/public/media/images/a35/5bc/cf8/801/340/0/a35bcf80183cc025a560e9b1b9e58b20.png?v=1684508359",
+    "name": "Twister",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/twister/twister.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/twister/brushed/twister.gltf"
+  },
+  {
+    "id": 2336484,
+    "part_image": "https://www.iknowauto.com/public/media/images/bba/aef/f3d/d68/340/0/bbaef3d6894ed272c0e5584600ea642c.png?v=1648694456",
+    "name": "Twister",
+    "caption": "Artis Forged",
+    "path": "gold",
+    "part_url": "models/parts/Wheels/artis/twister/twister.gltf",
+    "finish_name": "Gold",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/twister/gold/twister.gltf"
+  },
+  {
+    "id": 2336582,
+    "part_image": "https://www.iknowauto.com/public/media/images/01b/b40/04e/e02/340/0/01b404e02226c2815927a8bba00de7aa.png?v=1648694456",
+    "name": "Twister",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/twister/twister.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/twister/chrome/twister.gltf"
+  },
+  {
+    "id": 2336778,
+    "part_image": "https://www.iknowauto.com/public/media/images/102/273/38e/e0c/340/0/102738e0c3c2a2bf8e02d980058a0aad.png?v=1648694456",
+    "name": "Nirvana",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/nirvana/nirvana.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/nirvana/brushed/nirvana.gltf"
+  },
+  {
+    "id": 2336876,
+    "part_image": "https://www.iknowauto.com/public/media/images/12c/c99/9bf/f48/340/0/12c99bf48c8ab2ce81f1522424f6b55c.png?v=1681772323",
+    "name": "Nirvana",
+    "caption": "Artis Forged",
+    "path": "chrome",
+    "part_url": "models/parts/Wheels/artis/nirvana/nirvana.gltf",
+    "finish_name": "Chrome",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/nirvana/chrome/nirvana.gltf"
+  },
+  {
+    "id": 2336974,
+    "part_image": "https://www.iknowauto.com/public/media/images/271/1e1/1c4/4d4/340/0/271e1c4d4ea579fa7d14dccd7a498dfd.png?v=1681772325",
+    "name": "Grino",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/grino/grino.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/grino/brushed/grino.gltf"
+  },
+  {
+    "id": 2337072,
+    "part_image": "https://www.iknowauto.com/public/media/images/bd7/7af/f11/102/340/0/bd7af11025f1e16901e47177fd72b863.png?v=1680141681",
+    "name": "Dawn",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/dawn/dawn.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/dawn/brushed/dawn.gltf"
+  },
+  {
+    "id": 2337268,
+    "part_image": "https://www.iknowauto.com/public/media/images/c38/8be/eca/ac1/340/0/c38becac114ebbd34bec3ba20544be79.png?v=1648694457",
+    "name": "Woodward",
+    "caption": "Artis Forged",
+    "path": "brushed",
+    "part_url": "models/parts/Wheels/artis/woodward/woodward.gltf",
+    "finish_name": "Brushed",
+    "model_url": "https://3dbuilder.iknowauto.com/models/parts/Wheels/artis/woodward/brushed/woodward.gltf"
+  }
+]

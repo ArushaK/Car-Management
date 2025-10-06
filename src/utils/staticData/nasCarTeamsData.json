@@ -1,0 +1,578 @@
+{
+  "teams": [
+    {
+      "id": "23xi-racing",
+      "name": "23XI Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/02/23XI-Solid-Racing-Red-443x113.png",
+      "manufacturer": {
+        "name": "Toyota",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/04/06/Toyota-180x180.png"
+      },
+      "drivers": [
+        {
+          "id": "riley-herbst",
+          "name": "Riley Herbst",
+          "profile_url": "https://www.nascar.com/drivers/riley-herbst/",
+          "number": 1
+        },
+        {
+          "id": "tyler-reddick",
+          "name": "Tyler Reddick",
+          "profile_url": "https://www.nascar.com/drivers/tyler-reddick",
+          "number": 2
+        },
+        {
+          "id": "bubba-wallace",
+          "name": "Bubba Wallace",
+          "profile_url": "https://www.nascar.com/drivers/bubba-wallace",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "front-row-motorsports",
+      "name": "Front Row Motorsports",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/front-row-motorsports-team-logo.png",
+      "manufacturer": {
+        "name": "Ford",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+      },
+      "drivers": [
+        {
+          "id": "todd-gilliland",
+          "name": "Todd Gilliland",
+          "profile_url": "https://www.nascar.com/drivers/todd-gilliland",
+          "number": 4
+        },
+        {
+          "id": "noah-gragson",
+          "name": "Noah Gragson",
+          "profile_url": "https://www.nascar.com/drivers/noah-gragson",
+          "number": 5
+        },
+        {
+          "id": "layne-riggs",
+          "name": "Layne Riggs",
+          "profile_url": "https://www.nascar.com/drivers/layne-riggs/",
+          "number": 6
+        },
+        {
+          "id": "zane-smith",
+          "name": "Zane Smith",
+          "profile_url": "https://www.nascar.com/drivers/zane-smith/",
+          "number": 7
+        },
+        {
+          "id": "chandler-smith",
+          "name": "Chandler Smith",
+          "profile_url": "https://www.nascar.com/drivers/chandler-smith/",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "haas-factory-team",
+      "name": "Haas Factory Team",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/24/haasfavicon-250x250.png",
+      "manufacturer": {
+        "name": "Ford",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+      },
+      "drivers": [
+        {
+          "id": "sheldon-creed",
+          "name": "Sheldon Creed",
+          "profile_url": "https://www.nascar.com/drivers/sheldon-creed/",
+          "number": 9
+        },
+        {
+          "id": "cole-custer",
+          "name": "Cole Custer",
+          "profile_url": "https://www.nascar.com/drivers/cole-custer/",
+          "number": 10
+        },
+        {
+          "id": "sam-mayer",
+          "name": "Sam Mayer",
+          "profile_url": "https://www.nascar.com/drivers/sam-mayer/",
+          "number": 11
+        }
+      ]
+    },
+    {
+      "id": "hendrick-motorsports",
+      "name": "Hendrick Motorsports",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/21/Hendrick-Motorsports-Primary-443x199.png",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "alex-bowman",
+          "name": "Alex Bowman",
+          "profile_url": "https://www.nascar.com/drivers/alex-bowman",
+          "number": 12
+        },
+        {
+          "id": "william-byron",
+          "name": "William Byron",
+          "profile_url": "https://www.nascar.com/drivers/william-byron",
+          "number": 13
+        },
+        {
+          "id": "chase-elliott",
+          "name": "Chase Elliott",
+          "profile_url": "https://www.nascar.com/drivers/chase-elliott",
+          "number": 14
+        },
+        {
+          "id": "kyle-larson",
+          "name": "Kyle Larson",
+          "profile_url": "https://www.nascar.com/drivers/kyle-larson",
+          "number": 15
+        }
+      ]
+    },
+    {
+      "id": "hyak-motorsports",
+      "name": "Hyak Motorsports",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/16/HYAK_Final-443x203.jpg",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "ricky-stenhouse-jr",
+          "name": "Ricky Stenhouse Jr.",
+          "profile_url": "https://www.nascar.com/drivers/ricky-stenhouse-jr",
+          "number": 16
+        }
+      ]
+    },
+    {
+      "id": "joe-gibbs-racing",
+      "name": "Joe Gibbs Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/23/JGR-443x110.png",
+      "manufacturer": {
+        "name": "Toyota",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/04/06/Toyota-180x180.png"
+      },
+      "drivers": [
+        {
+          "id": "christopher-bell",
+          "name": "Christopher Bell",
+          "profile_url": "https://www.nascar.com/drivers/christopher-bell",
+          "number": 17
+        },
+        {
+          "id": "chase-briscoe",
+          "name": "Chase Briscoe",
+          "profile_url": "https://www.nascar.com/drivers/chase-briscoe",
+          "number": 18
+        },
+        {
+          "id": "ty-gibbs",
+          "name": "Ty Gibbs",
+          "profile_url": "https://www.nascar.com/drivers/ty-gibbs-1",
+          "number": 19
+        },
+        {
+          "id": "denny-hamlin",
+          "name": "Denny Hamlin",
+          "profile_url": "https://www.nascar.com/drivers/denny-hamlin",
+          "number": 20
+        },
+        {
+          "id": "brandon-jones",
+          "name": "Brandon Jones",
+          "profile_url": "https://www.nascar.com/drivers/brandon-jones/",
+          "number": 1
+        },
+        {
+          "id": "william-sawalich",
+          "name": "William Sawalich",
+          "profile_url": "https://www.nascar.com/drivers/wiliam-swalich",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "jr-motorsports",
+      "name": "JR Motorsports",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2021/01/21/jr-motorsports-logo-443x187.png",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "justin-allgaier",
+          "name": "Justin Allgaier",
+          "profile_url": "https://www.nascar.com/drivers/justin-allgaier/",
+          "number": 3
+        },
+        {
+          "id": "sammy-smith",
+          "name": "Sammy Smith",
+          "profile_url": "https://www.nascar.com/drivers/sammy-smith/",
+          "number": 4
+        },
+        {
+          "id": "connor-zilisch",
+          "name": "Connor Zilisch",
+          "profile_url": "https://www.nascar.com/drivers/connor-zilisch",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "kaulig-racing",
+      "name": "Kaulig Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2021/01/21/kaulig-racing-logo-443x199.png",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "aj-allmendinger",
+          "name": "AJ Allmendinger",
+          "profile_url": "https://www.nascar.com/drivers/aj-allmendinger",
+          "number": 6
+        },
+        {
+          "id": "ty-dillon",
+          "name": "Ty Dillon",
+          "profile_url": "https://www.nascar.com/drivers/ty-dillon",
+          "number": 7
+        },
+        {
+          "id": "daniel-dye",
+          "name": "Daniel Dye",
+          "profile_url": "https://www.nascar.com/drivers/daniel-dye/",
+          "number": 8
+        },
+        {
+          "id": "christian-eckes",
+          "name": "Christian Eckes",
+          "profile_url": "https://www.nascar.com/drivers/christian-eckes/",
+          "number": 9
+        },
+        {
+          "id": "josh-williams",
+          "name": "Josh Williams",
+          "profile_url": "https://www.nascar.com/drivers/josh-williams/",
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "legacy-motor-club",
+      "name": "Legacy Motor Club",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/16/LegacyMotorClubStackedGold-443x133.png",
+      "manufacturer": {
+        "name": "Toyota",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/04/06/Toyota-180x180.png"
+      },
+      "drivers": [
+        {
+          "id": "jimmie-johnson",
+          "name": "Jimmie Johnson",
+          "profile_url": "https://www.nascar.com/drivers/jimmie-johnson",
+          "number": 11
+        },
+        {
+          "id": "erik-jones",
+          "name": "Erik Jones",
+          "profile_url": "https://www.nascar.com/drivers/erik-jones",
+          "number": 12
+        },
+        {
+          "id": "john-hunter-nemechek",
+          "name": "John Hunter Nemechek",
+          "profile_url": "https://www.nascar.com/drivers/john-hunter-nemechek/",
+          "number": 13
+        }
+      ]
+    },
+    {
+      "id": "niece-motorsports",
+      "name": "Niece Motorsports",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2021/08/04/image-18-322x250.png",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "bayley-currey",
+          "name": "Bayley Currey",
+          "profile_url": "https://www.nascar.com/drivers/bayley-currey/",
+          "number": 14
+        },
+        {
+          "id": "kaden-honeycutt",
+          "name": "Kaden Honeycutt",
+          "profile_url": "https://www.nascar.com/drivers/kaden-honeycutt",
+          "number": 15
+        },
+        {
+          "id": "matt-mills",
+          "name": "Matt Mills",
+          "profile_url": "https://www.nascar.com/drivers/matt-mills/",
+          "number": 16
+        }
+      ]
+    },
+    {
+      "id": "rfk-racing",
+      "name": "RFK Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/29/RFK_logo-443x189.png",
+      "manufacturer": {
+        "name": "Ford",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+      },
+      "drivers": [
+        {
+          "id": "chris-buescher",
+          "name": "Chris Buescher",
+          "profile_url": "https://www.nascar.com/drivers/chris-buescher",
+          "number": 17
+        },
+        {
+          "id": "brad-keselowski",
+          "name": "Brad Keselowski",
+          "profile_url": "https://www.nascar.com/drivers/brad-keselowski",
+          "number": 18
+        }
+      ]
+    },
+    {
+      "id": "richard-childress-racing",
+      "name": "Richard Childress Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/richard-childress-racing-team-logo.jpg",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "kyle-busch",
+          "name": "Kyle Busch",
+          "profile_url": "https://www.nascar.com/drivers/kyle-busch",
+          "number": 19
+        },
+        {
+          "id": "austin-dillon",
+          "name": "Austin Dillon",
+          "profile_url": "https://www.nascar.com/drivers/austin-dillon",
+          "number": 20
+        },
+        {
+          "id": "austin-hill",
+          "name": "Austin Hill",
+          "profile_url": "https://www.nascar.com/drivers/austin-hill/",
+          "number": 1
+        },
+        {
+          "id": "jesse-love",
+          "name": "Jesse Love",
+          "profile_url": "https://www.nascar.com/drivers/jesse-love",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "id": "rick-ware-racing",
+      "name": "Rick Ware Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/rick-ware-racing-team-logo.png",
+      "manufacturer": {
+        "name": "Ford",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+      },
+      "drivers": [
+        {
+          "id": "cody-ware",
+          "name": "Cody Ware",
+          "profile_url": "https://www.nascar.com/drivers/cody-ware",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": "spire-motorsports",
+      "name": "Spire Motorsports",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/01/24/Spire_HorizontalBadge-443x144.png",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "rajah-caruth",
+          "name": "Rajah Caruth",
+          "profile_url": "https://www.nascar.com/drivers/rajah-caruth/",
+          "number": 4
+        },
+        {
+          "id": "justin-haley",
+          "name": "Justin Haley",
+          "profile_url": "https://www.nascar.com/drivers/justin-haley",
+          "number": 5
+        },
+        {
+          "id": "carson-hocevar",
+          "name": "Carson Hocevar",
+          "profile_url": "https://www.nascar.com/drivers/carson-hocevar/",
+          "number": 6
+        },
+        {
+          "id": "michael-mcdowell",
+          "name": "Michael McDowell",
+          "profile_url": "https://www.nascar.com/drivers/michael-mcdowell",
+          "number": 7
+        },
+        {
+          "id": "andres-perez-de-lara",
+          "name": "Andrés Pérez de Lara",
+          "profile_url": "https://www.nascar.com/drivers/andres-perez-de-lara",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "team-penske",
+      "name": "Team Penske",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/team-penske-team-logo-443x134.png",
+      "manufacturer": {
+        "name": "Ford",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+      },
+      "drivers": [
+        {
+          "id": "ryan-blaney",
+          "name": "Ryan Blaney",
+          "profile_url": "https://www.nascar.com/drivers/ryan-blaney",
+          "number": 9
+        },
+        {
+          "id": "austin-cindric",
+          "name": "Austin Cindric",
+          "profile_url": "https://www.nascar.com/drivers/austin-cindric",
+          "number": 10
+        },
+        {
+          "id": "joey-logano",
+          "name": "Joey Logano",
+          "profile_url": "https://www.nascar.com/drivers/joey-logano",
+          "number": 11
+        }
+      ]
+    },
+    {
+      "id": "thorsport-racing",
+      "name": "ThorSport Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2021/02/17/Thorsport-racing-logo-417x250.jpg",
+      "manufacturer": {
+        "name": "Ford",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+      },
+      "drivers": [
+        {
+          "id": "matt-crafton",
+          "name": "Matt Crafton",
+          "profile_url": "https://www.nascar.com/drivers/matt-crafton/",
+          "number": 12
+        },
+        {
+          "id": "jake-garcia",
+          "name": "Jake Garcia",
+          "profile_url": "https://www.nascar.com/drivers/jake-garcia/",
+          "number": 13
+        },
+        {
+          "id": "ty-majeski",
+          "name": "Ty Majeski",
+          "profile_url": "https://www.nascar.com/drivers/ty-majeski/",
+          "number": 14
+        },
+        {
+          "id": "ben-rhodes",
+          "name": "Ben Rhodes",
+          "profile_url": "https://www.nascar.com/drivers/ben-rhodes/",
+          "number": 15
+        }
+      ]
+    },
+    {
+      "id": "trackhouse",
+      "name": "Trackhouse",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2023/04/27/TH_FullLogo_Black-298x250.png",
+      "manufacturer": {
+        "name": "Chevrolet",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+      },
+      "drivers": [
+        {
+          "id": "ross-chastain",
+          "name": "Ross Chastain",
+          "profile_url": "https://www.nascar.com/drivers/ross-chastain",
+          "number": 16
+        },
+        {
+          "id": "daniel-suarez",
+          "name": "Daniel Suárez",
+          "profile_url": "https://www.nascar.com/drivers/daniel-suarez",
+          "number": 17
+        },
+        {
+          "id": "shane-van-gisbergen",
+          "name": "Shane van Gisbergen",
+          "profile_url": "https://www.nascar.com/drivers/shane-van-gisbergen",
+          "number": 18
+        }
+      ]
+    },
+    {
+      "id": "wood-brothers-racing",
+      "name": "Wood Brothers Racing",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/wood-brothers-racing-team-logo.png",
+      "manufacturer": {
+        "name": "Ford",
+        "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+      },
+      "drivers": [
+        {
+          "id": "josh-berry",
+          "name": "Josh Berry",
+          "profile_url": "https://www.nascar.com/drivers/josh-berry/",
+          "number": 19
+        }
+      ]
+    }
+  ],
+  "manufacturers": [
+    {
+      "name": "Chevrolet",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png",
+      "team_count": 7
+    },
+    {
+      "name": "Ford",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png",
+      "team_count": 7
+    },
+    {
+      "name": "Toyota",
+      "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/04/06/Toyota-180x180.png",
+      "team_count": 3
+    }
+  ],
+  "metadata": {
+    "total_teams": 17,
+    "total_drivers": 66,
+    "last_updated": "2025-04-30"
+  }
+}

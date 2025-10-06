@@ -1,0 +1,843 @@
+[
+    {
+        "id": "config-1746593076296",
+        "name": "Legacy Motor Club",
+        "timestamp": 1746593076296,
+        "status": "approved",
+        "approvalStage": "NASCAR",
+        "team": {
+            "id": "legacy-motor-club",
+            "name": "Legacy Motor Club",
+            "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/16/LegacyMotorClubStackedGold-443x133.png",
+            "manufacturer": {
+                "name": "Toyota",
+                "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/04/06/Toyota-180x180.png"
+            },
+            "drivers": [
+                {
+                    "id": "jimmie-johnson",
+                    "name": "Jimmie Johnson",
+                    "profile_url": "https://www.nascar.com/drivers/jimmie-johnson",
+                    "number": 11
+                },
+                {
+                    "id": "erik-jones",
+                    "name": "Erik Jones",
+                    "profile_url": "https://www.nascar.com/drivers/erik-jones",
+                    "number": 12
+                },
+                {
+                    "id": "john-hunter-nemechek",
+                    "name": "John Hunter Nemechek",
+                    "profile_url": "https://www.nascar.com/drivers/john-hunter-nemechek/",
+                    "number": 13
+                }
+            ]
+        },
+        "driver": {
+            "id": "jimmie-johnson",
+            "name": "Jimmie Johnson",
+            "profile_url": "https://www.nascar.com/drivers/jimmie-johnson",
+            "number": 11
+        },
+        "configuration": {
+            "carColor": "#FF0022",
+            "driverColor": "#000000",
+            "carPaintFinish": "metallic",
+            "selectedWheels": null,
+            "placedDecals": [
+                {
+                    "uuid": "65b194b3-cf36-4de0-9828-e53fc570fbbc",
+                    "position": [
+                        0.8701674981226064,
+                        0.6998548278198776,
+                        0.5876995055818672
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        0.9738915353265308,
+                        0.2265239420102481,
+                        -0.01490574102385617
+                    ],
+                    "name": "DecalMesh_Chevrolet 2025"
+                },
+                {
+                    "uuid": "e797bc02-c104-4a05-a90d-13d326ce22c5",
+                    "position": [
+                        0.8770973330145626,
+                        0.573038263696538,
+                        0.24812701041465304
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        0.999283257496327,
+                        0.024332751639045,
+                        -0.02899807726733243
+                    ],
+                    "name": "DecalMesh_Coca-Cola"
+                }
+            ]
+        },
+        "comments": [
+            {
+                "stage": "Team Owner",
+                "status": "approved",
+                "comment": "Looks great! Proceeding to the next phase",
+                "timestamp": 1746593577382
+            },
+            {
+                "stage": "Marketing Director",
+                "status": "approved",
+                "comment": "All required car models and assets render correctly. Good to go",
+                "timestamp": 1746593777873
+            },
+            {
+                "stage": "Track Manager",
+                "status": "approved",
+                "comment": "Excellent work! No changes needed at this stage",
+                "timestamp": 1746593913652
+            },
+            {
+                "stage": "Sponsors",
+                "status": "approved",
+                "comment": "All decals are placed correctly. No issues found",
+                "timestamp": 1746593995476
+            },
+            {
+                "stage": "NASCAR",
+                "status": "approved",
+                "comment": "Good job! Looks production-ready from both design and tech perspectives",
+                "timestamp": 1746594080039
+            }
+        ]
+    },
+    {
+        "id": "config-1746593177909",
+        "name": "Wood Brothers Racing Car",
+        "timestamp": 1746593177909,
+        "status": "pending",
+        "approvalStage": "NASCAR",
+        "team": {
+            "id": "wood-brothers-racing",
+            "name": "Wood Brothers Racing",
+            "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/wood-brothers-racing-team-logo.png",
+            "manufacturer": {
+                "name": "Ford",
+                "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+            },
+            "drivers": [
+                {
+                    "id": "josh-berry",
+                    "name": "Josh Berry",
+                    "profile_url": "https://www.nascar.com/drivers/josh-berry/",
+                    "number": 19
+                }
+            ]
+        },
+        "driver": {
+            "id": "josh-berry",
+            "name": "Josh Berry",
+            "profile_url": "https://www.nascar.com/drivers/josh-berry/",
+            "number": 19
+        },
+        "configuration": {
+            "carColor": "#00407A",
+            "driverColor": "#000000",
+            "carPaintFinish": "satin",
+            "selectedWheels": null,
+            "placedDecals": [
+                {
+                    "uuid": "6fff8b61-e6bc-4d34-b725-15899346b5f7",
+                    "position": [
+                        -0.03696285281253634,
+                        0.4774811009330421,
+                        2.3465731905542153
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.024696464294865435,
+                        -0.003777799624074273,
+                        0.9996878577242663
+                    ],
+                    "name": "DecalMesh_Ford Performance"
+                },
+                {
+                    "uuid": "bf1849c1-94a7-40a1-916c-e94805371eb6",
+                    "position": [
+                        0.34832229188345154,
+                        0.4910398554165646,
+                        2.321565596812566
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        0.13831450835682865,
+                        0.08860472945781221,
+                        0.9864168990319038
+                    ],
+                    "name": "DecalMesh_Goodyear"
+                },
+                {
+                    "uuid": "dc1b152b-3693-4bde-95ae-f2fec72f2cc4",
+                    "position": [
+                        -0.3989312881839268,
+                        0.49163483524543916,
+                        2.3111742985585026
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.2381152461093335,
+                        0.10837604175736884,
+                        0.9651713646515299
+                    ],
+                    "name": "DecalMesh_Goodyear"
+                }
+            ]
+        },
+        "comments": [
+            {
+                "stage": "Team Owner",
+                "status": "approved",
+                "comment": "Meets performance and visual benchmarks",
+                "timestamp": 1746593615093
+            },
+            {
+                "stage": "Marketing Director",
+                "status": "approved",
+                "comment": "Approved — materials and reflections look realistic",
+                "timestamp": 1746593787814
+            },
+            {
+                "stage": "Track Manager",
+                "status": "approved",
+                "comment": "All decals are placed correctly. No issues found",
+                "timestamp": 1746593933669
+            },
+            {
+                "stage": "Sponsors",
+                "status": "approved",
+                "comment": "Design approved. Meets all branding and technical specifications",
+                "timestamp": 1746594032251
+            }
+        ]
+    },
+    {
+        "id": "config-1746593284603",
+        "name": "JR Motorsports",
+        "timestamp": 1746593284603,
+        "status": "pending",
+        "approvalStage": "Team Owner",
+        "team": {
+            "id": "jr-motorsports",
+            "name": "JR Motorsports",
+            "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2021/01/21/jr-motorsports-logo-443x187.png",
+            "manufacturer": {
+                "name": "Chevrolet",
+                "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2025/03/04/Chevrolet_2025-330x140.png"
+            },
+            "drivers": [
+                {
+                    "id": "justin-allgaier",
+                    "name": "Justin Allgaier",
+                    "profile_url": "https://www.nascar.com/drivers/justin-allgaier/",
+                    "number": 3
+                },
+                {
+                    "id": "sammy-smith",
+                    "name": "Sammy Smith",
+                    "profile_url": "https://www.nascar.com/drivers/sammy-smith/",
+                    "number": 4
+                },
+                {
+                    "id": "connor-zilisch",
+                    "name": "Connor Zilisch",
+                    "profile_url": "https://www.nascar.com/drivers/connor-zilisch",
+                    "number": 5
+                }
+            ]
+        },
+        "driver": {
+            "id": "justin-allgaier",
+            "name": "Justin Allgaier",
+            "profile_url": "https://www.nascar.com/drivers/justin-allgaier/",
+            "number": 3
+        },
+        "configuration": {
+            "carColor": "#003E7E",
+            "driverColor": "#000000",
+            "carPaintFinish": "metallic",
+            "selectedWheels": null,
+            "placedDecals": [
+                {
+                    "uuid": "df916420-623c-4118-89de-a23c91e0476c",
+                    "position": [
+                        -0.36229203131955895,
+                        0.7455588764041777,
+                        1.943603641411485
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.08847933757703723,
+                        0.9488195272282609,
+                        0.3031714227500145
+                    ],
+                    "name": "DecalMesh_FloRacing Ignite"
+                },
+                {
+                    "uuid": "dd88de32-0bb8-4535-8834-0c43c1014a97",
+                    "position": [
+                        0.28319432967805025,
+                        0.7505958747032997,
+                        1.9477771835448892
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        0.0534239646157124,
+                        0.9507971339576934,
+                        0.3051732132127185
+                    ],
+                    "name": "DecalMesh_FloRacing Ignite"
+                },
+                {
+                    "uuid": "9a43a3f8-5637-49b4-8fac-d32b6f1a57a7",
+                    "position": [
+                        -0.017994804725556,
+                        0.7153963339592868,
+                        2.0685842659392044
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.014396692913014144,
+                        0.9139230543548992,
+                        0.40563208200508544
+                    ],
+                    "name": "DecalMesh_Chevrolet 2025"
+                }
+            ]
+        }
+    },
+    {
+        "id": "config-1746593349689",
+        "name": "Joe Gibbs Racing Design",
+        "timestamp": 1746593349689,
+        "status": "pending",
+        "approvalStage": "Sponsors",
+        "team": {
+            "id": "joe-gibbs-racing",
+            "name": "Joe Gibbs Racing",
+            "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/23/JGR-443x110.png",
+            "manufacturer": {
+                "name": "Toyota",
+                "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/04/06/Toyota-180x180.png"
+            },
+            "drivers": [
+                {
+                    "id": "christopher-bell",
+                    "name": "Christopher Bell",
+                    "profile_url": "https://www.nascar.com/drivers/christopher-bell",
+                    "number": 17
+                },
+                {
+                    "id": "chase-briscoe",
+                    "name": "Chase Briscoe",
+                    "profile_url": "https://www.nascar.com/drivers/chase-briscoe",
+                    "number": 18
+                },
+                {
+                    "id": "ty-gibbs",
+                    "name": "Ty Gibbs",
+                    "profile_url": "https://www.nascar.com/drivers/ty-gibbs-1",
+                    "number": 19
+                },
+                {
+                    "id": "denny-hamlin",
+                    "name": "Denny Hamlin",
+                    "profile_url": "https://www.nascar.com/drivers/denny-hamlin",
+                    "number": 20
+                },
+                {
+                    "id": "brandon-jones",
+                    "name": "Brandon Jones",
+                    "profile_url": "https://www.nascar.com/drivers/brandon-jones/",
+                    "number": 1
+                },
+                {
+                    "id": "william-sawalich",
+                    "name": "William Sawalich",
+                    "profile_url": "https://www.nascar.com/drivers/wiliam-swalich",
+                    "number": 2
+                }
+            ]
+        },
+        "driver": {
+            "id": "chase-briscoe",
+            "name": "Chase Briscoe",
+            "profile_url": "https://www.nascar.com/drivers/chase-briscoe",
+            "number": 18
+        },
+        "configuration": {
+            "carColor": "#FF0022",
+            "driverColor": "#000000",
+            "carPaintFinish": "satin",
+            "selectedWheels": null,
+            "placedDecals": [
+                {
+                    "uuid": "1381f048-9dde-4cd8-b196-fbc83353c189",
+                    "position": [
+                        0.8734490212538784,
+                        0.6087120719759402,
+                        -0.3836024254847349
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        0.9986698129423981,
+                        0.026170803630748973,
+                        0.04442627325036994
+                    ],
+                    "name": "DecalMesh_iRacing"
+                },
+                {
+                    "uuid": "82163795-7223-4e1b-8f37-f709c6bd4cf1",
+                    "position": [
+                        -0.8737640891094441,
+                        0.6200873594186895,
+                        -0.3973859159588664
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.9986698129423981,
+                        0.026170803630748973,
+                        0.04442627325036994
+                    ],
+                    "name": "DecalMesh_iRacing"
+                }
+            ]
+        },
+        "comments": [
+            {
+                "stage": "Team Owner",
+                "status": "approved",
+                "comment": "Functional and aesthetic requirements satisfied. Go ahead",
+                "timestamp": 1746593630733
+            },
+            {
+                "stage": "Marketing Director",
+                "status": "approved",
+                "comment": "Good job! Looks Good",
+                "timestamp": 1746593879774
+            },
+            {
+                "stage": "Track Manager",
+                "status": "approved",
+                "comment": " visual benchmarks. Approved",
+                "timestamp": 1746593957148
+            }
+        ]
+    },
+    {
+        "id": "config-1746593396489",
+        "name": "ThorSport Racing",
+        "timestamp": 1746593396489,
+        "status": "rejected",
+        "approvalStage": "Team Owner",
+        "team": {
+            "id": "thorsport-racing",
+            "name": "ThorSport Racing",
+            "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2021/02/17/Thorsport-racing-logo-417x250.jpg",
+            "manufacturer": {
+                "name": "Ford",
+                "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+            },
+            "drivers": [
+                {
+                    "id": "matt-crafton",
+                    "name": "Matt Crafton",
+                    "profile_url": "https://www.nascar.com/drivers/matt-crafton/",
+                    "number": 12
+                },
+                {
+                    "id": "jake-garcia",
+                    "name": "Jake Garcia",
+                    "profile_url": "https://www.nascar.com/drivers/jake-garcia/",
+                    "number": 13
+                },
+                {
+                    "id": "ty-majeski",
+                    "name": "Ty Majeski",
+                    "profile_url": "https://www.nascar.com/drivers/ty-majeski/",
+                    "number": 14
+                },
+                {
+                    "id": "ben-rhodes",
+                    "name": "Ben Rhodes",
+                    "profile_url": "https://www.nascar.com/drivers/ben-rhodes/",
+                    "number": 15
+                }
+            ]
+        },
+        "driver": {
+            "id": "jake-garcia",
+            "name": "Jake Garcia",
+            "profile_url": "https://www.nascar.com/drivers/jake-garcia/",
+            "number": 13
+        },
+        "configuration": {
+            "carColor": "#00407A",
+            "driverColor": "#000000",
+            "carPaintFinish": "glossy",
+            "selectedWheels": null,
+            "placedDecals": []
+        },
+        "comments": [
+            {
+                "stage": "Team Owner",
+                "status": "rejected",
+                "comment": "Please add some logos",
+                "timestamp": 1746594170036
+            }
+        ]
+    },
+    {
+        "id": "config-1746593471265",
+        "name": "23XI Racing",
+        "timestamp": 1746593471265,
+        "status": "pending",
+        "approvalStage": "Track Manager",
+        "team": {
+            "id": "23xi-racing",
+            "name": "23XI Racing",
+            "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/02/23XI-Solid-Racing-Red-443x113.png",
+            "manufacturer": {
+                "name": "Toyota",
+                "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2020/04/06/Toyota-180x180.png"
+            },
+            "drivers": [
+                {
+                    "id": "riley-herbst",
+                    "name": "Riley Herbst",
+                    "profile_url": "https://www.nascar.com/drivers/riley-herbst/",
+                    "number": 1
+                },
+                {
+                    "id": "tyler-reddick",
+                    "name": "Tyler Reddick",
+                    "profile_url": "https://www.nascar.com/drivers/tyler-reddick",
+                    "number": 2
+                },
+                {
+                    "id": "bubba-wallace",
+                    "name": "Bubba Wallace",
+                    "profile_url": "https://www.nascar.com/drivers/bubba-wallace",
+                    "number": 3
+                }
+            ]
+        },
+        "driver": {
+            "id": "bubba-wallace",
+            "name": "Bubba Wallace",
+            "profile_url": "https://www.nascar.com/drivers/bubba-wallace",
+            "number": 3
+        },
+        "configuration": {
+            "carColor": "#FF0022",
+            "driverColor": "#000000",
+            "carPaintFinish": "matte",
+            "selectedWheels": null,
+            "placedDecals": [
+                {
+                    "uuid": "92766134-e937-46f9-9840-d4815ef6a357",
+                    "position": [
+                        0.8687631947238086,
+                        0.7021254108021895,
+                        0.5318965734352821
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        0.9743298118391364,
+                        0.22463159258234558,
+                        -0.014901858120124508
+                    ],
+                    "name": "DecalMesh_Goodyear"
+                },
+                {
+                    "uuid": "5f02bf63-20fb-4f28-956b-8681743b3113",
+                    "position": [
+                        -0.8708101158046275,
+                        0.6919243946089884,
+                        0.5119598222349013
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.9743298118391364,
+                        0.22463159258234558,
+                        -0.014901858120124508
+                    ],
+                    "name": "DecalMesh_Goodyear"
+                },
+                {
+                    "uuid": "60210597-7302-43d7-a7a5-129405c95ec0",
+                    "position": [
+                        -0.41044467592691564,
+                        1.1345658938847771,
+                        0.2767011829458145
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.10831092153671276,
+                        0.8988051209797283,
+                        0.4247565170500436
+                    ],
+                    "name": "DecalMesh_Motorsport Engine"
+                }
+            ]
+        },
+        "comments": [
+            {
+                "stage": "Team Owner",
+                "status": "approved",
+                "comment": "Checked and approved",
+                "timestamp": 1746593674961
+            },
+            {
+                "stage": "Marketing Director",
+                "status": "approved",
+                "comment": "Looks Good",
+                "timestamp": 1746593825860
+            }
+        ]
+    },
+    {
+        "id": "config-1746593532617",
+        "name": "Front Row Motorsports",
+        "timestamp": 1746593532617,
+        "status": "pending",
+        "approvalStage": "Marketing Director",
+        "team": {
+            "id": "front-row-motorsports",
+            "name": "Front Row Motorsports",
+            "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2019/08/front-row-motorsports-team-logo.png",
+            "manufacturer": {
+                "name": "Ford",
+                "logo": "https://www.nascar.com/wp-content/uploads/sites/7/2024/04/10/Ford-Logo-1-320x180.png"
+            },
+            "drivers": [
+                {
+                    "id": "todd-gilliland",
+                    "name": "Todd Gilliland",
+                    "profile_url": "https://www.nascar.com/drivers/todd-gilliland",
+                    "number": 4
+                },
+                {
+                    "id": "noah-gragson",
+                    "name": "Noah Gragson",
+                    "profile_url": "https://www.nascar.com/drivers/noah-gragson",
+                    "number": 5
+                },
+                {
+                    "id": "layne-riggs",
+                    "name": "Layne Riggs",
+                    "profile_url": "https://www.nascar.com/drivers/layne-riggs/",
+                    "number": 6
+                },
+                {
+                    "id": "zane-smith",
+                    "name": "Zane Smith",
+                    "profile_url": "https://www.nascar.com/drivers/zane-smith/",
+                    "number": 7
+                },
+                {
+                    "id": "chandler-smith",
+                    "name": "Chandler Smith",
+                    "profile_url": "https://www.nascar.com/drivers/chandler-smith/",
+                    "number": 8
+                }
+            ]
+        },
+        "driver": {
+            "id": "chandler-smith",
+            "name": "Chandler Smith",
+            "profile_url": "https://www.nascar.com/drivers/chandler-smith/",
+            "number": 8
+        },
+        "configuration": {
+            "carColor": "#FFFFFF",
+            "driverColor": "#000000",
+            "carPaintFinish": "satin",
+            "selectedWheels": null,
+            "placedDecals": [
+                {
+                    "uuid": "4238e5be-c1cd-4312-86fc-348fd9f456f0",
+                    "position": [
+                        0.8674423649783009,
+                        0.7090979798396724,
+                        0.5501174494256373
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        0.9738915353265308,
+                        0.2265239420102481,
+                        -0.01490574102385617
+                    ],
+                    "name": "DecalMesh_Motorsport Engine"
+                },
+                {
+                    "uuid": "74a1e01c-9b60-429a-a50c-72b551bf7587",
+                    "position": [
+                        -0.03236668930953667,
+                        0.7121025334890284,
+                        2.0754953874667166
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "normal": [
+                        -0.014396692913014144,
+                        0.9139230543548992,
+                        0.40563208200508544
+                    ],
+                    "name": "DecalMesh_Motorsport Engine"
+                }
+            ]
+        },
+        "comments": [
+            {
+                "stage": "Team Owner",
+                "status": "approved",
+                "comment": "Visual fidelity is high. No artifacts or glitches found",
+                "timestamp": 1746593750357
+            }
+        ]
+    }
+]

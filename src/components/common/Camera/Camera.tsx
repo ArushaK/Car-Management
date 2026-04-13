@@ -1,4 +1,4 @@
-import { PerspectiveCamera, TransformControls } from '@react-three/drei';
+import { PerspectiveCamera } from '@react-three/drei';
 import { useFrame, useThree } from '@react-three/fiber';
 import { useCameraViewMode } from './useCameraViewMode';
 import OrbitCameraControls from './OrbitCameraControls';
@@ -149,76 +149,76 @@ const Camera = ({
   });
 
   // patch need to remove it asap
-  const handleOnObjectChange = () => {
-    if (currentMode.mode === 'scale' && decalMesh) {
-      // Ensure userData is extensible
-      if (!decalMesh.userData || Object.isFrozen(decalMesh.userData)) {
-        decalMesh.userData = { ...decalMesh.userData };
-      }
-      // Store previous scale if not already stored
-      if (!decalMesh.userData.prevScale) {
-        decalMesh.userData.prevScale = decalMesh.scale.clone();
-      }
-      const prevScale = decalMesh.userData.prevScale;
-      const currentScale = decalMesh.scale;
+  // const handleOnObjectChange = () => {
+  //   if (currentMode.mode === 'scale' && decalMesh) {
+  //     // Ensure userData is extensible
+  //     if (!decalMesh.userData || Object.isFrozen(decalMesh.userData)) {
+  //       decalMesh.userData = { ...decalMesh.userData };
+  //     }
+  //     // Store previous scale if not already stored
+  //     if (!decalMesh.userData.prevScale) {
+  //       decalMesh.userData.prevScale = decalMesh.scale.clone();
+  //     }
+  //     const prevScale = decalMesh.userData.prevScale;
+  //     const currentScale = decalMesh.scale;
 
-      // Check if scale has changed
-      if (!prevScale.equals(currentScale)) {
-        // Calculate zIndexFactor based on scale change
-        const zIndexFactor = Math.max(currentScale.x, currentScale.y, currentScale.z) * 0.00002;
+  //     // Check if scale has changed
+  //     if (!prevScale.equals(currentScale)) {
+  //       // Calculate zIndexFactor based on scale change
+  //       const zIndexFactor = Math.max(currentScale.x, currentScale.y, currentScale.z) * 0.00002;
 
-        // Find the axis most parallel to worldNormal
-        const worldNormal = decalMesh.geometry.userData.worldNormal;
-        if (worldNormal) {
-          const abs = {
-            x: Math.abs(worldNormal.x),
-            y: Math.abs(worldNormal.y),
-            z: Math.abs(worldNormal.z)
-          };
-          const max = Math.max(abs.x, abs.y, abs.z);
-          // Apply zIndexFactor to the axis most parallel to worldNormal
-          if (abs.x === max) {
-            decalMesh.position.x += Math.sign(worldNormal.x) * zIndexFactor;
-          } else if (abs.y === max) {
-            decalMesh.position.y += Math.sign(worldNormal.y) * zIndexFactor;
-          } else if (abs.z === max) {
-            decalMesh.position.z += Math.sign(worldNormal.z) * zIndexFactor;
-          }
-        }
+  //       // Find the axis most parallel to worldNormal
+  //       const worldNormal = decalMesh.geometry.userData.worldNormal;
+  //       if (worldNormal) {
+  //         const abs = {
+  //           x: Math.abs(worldNormal.x),
+  //           y: Math.abs(worldNormal.y),
+  //           z: Math.abs(worldNormal.z)
+  //         };
+  //         const max = Math.max(abs.x, abs.y, abs.z);
+  //         // Apply zIndexFactor to the axis most parallel to worldNormal
+  //         if (abs.x === max) {
+  //           decalMesh.position.x += Math.sign(worldNormal.x) * zIndexFactor;
+  //         } else if (abs.y === max) {
+  //           decalMesh.position.y += Math.sign(worldNormal.y) * zIndexFactor;
+  //         } else if (abs.z === max) {
+  //           decalMesh.position.z += Math.sign(worldNormal.z) * zIndexFactor;
+  //         }
+  //       }
 
-        // Update prevScale for next change
-        decalMesh.userData.prevScale = currentScale.clone();
-      }
-    }
-  }
+  //       // Update prevScale for next change
+  //       decalMesh.userData.prevScale = currentScale.clone();
+  //     }
+  //   }
+  // }
 
   // Utility to determine axis visibility for TransformControls
-  function getAxisVisibility(mode: 'rotate' | 'scale', worldNormal?: { x: number; y: number; z: number }) {
-    if (!worldNormal) {
-      return { showX: true, showY: true, showZ: true };
-    }
-    const abs = {
-      x: Math.abs(worldNormal.x),
-      y: Math.abs(worldNormal.y),
-      z: Math.abs(worldNormal.z)
-    };
-    const max = Math.max(abs.x, abs.y, abs.z);
-    if (mode === 'rotate') {
-      // Only show the axis most aligned with worldNormal
-      return {
-        showX: abs.x === max,
-        showY: abs.y === max,
-        showZ: abs.z === max
-      };
-    } else {
-      // scale mode: hide axis most parallel to worldNormal (i.e., the one with the largest abs value)
-      return {
-        showX: abs.x !== max,
-        showY: abs.y !== max,
-        showZ: abs.z !== max
-      };
-    }
-  }
+  // function getAxisVisibility(mode: 'rotate' | 'scale', worldNormal?: { x: number; y: number; z: number }) {
+  //   if (!worldNormal) {
+  //     return { showX: true, showY: true, showZ: true };
+  //   }
+  //   const abs = {
+  //     x: Math.abs(worldNormal.x),
+  //     y: Math.abs(worldNormal.y),
+  //     z: Math.abs(worldNormal.z)
+  //   };
+  //   const max = Math.max(abs.x, abs.y, abs.z);
+  //   if (mode === 'rotate') {
+  //     // Only show the axis most aligned with worldNormal
+  //     return {
+  //       showX: abs.x === max,
+  //       showY: abs.y === max,
+  //       showZ: abs.z === max
+  //     };
+  //   } else {
+  //     // scale mode: hide axis most parallel to worldNormal (i.e., the one with the largest abs value)
+  //     return {
+  //       showX: abs.x !== max,
+  //       showY: abs.y !== max,
+  //       showZ: abs.z !== max
+  //     };
+  //   }
+  // }
 
   // Store current mode once per render
   const currentMode = getCurrentMode();

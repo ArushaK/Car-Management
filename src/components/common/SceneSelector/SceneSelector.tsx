@@ -319,7 +319,7 @@ const SceneSelector = () => {
             }
         };
 
-        const onPointerMove = (event: MouseEvent) => {
+        const onPointerMove = () => {
             if (!isDragging || !selection?.uuid) return;
             
             // If we've held down for long enough, start dragging

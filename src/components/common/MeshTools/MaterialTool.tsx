@@ -19,7 +19,7 @@ const materials = [
   { id: 'glossy', name: 'Glossy', preview: '#c0c0c0' }
 ];
 
-const MaterialTool: React.FC<MaterialToolProps> = ({ sceneRef }) => {
+const MaterialTool: React.FC<MaterialToolProps> = ({ }) => {
   const dispatch = useDispatch();
   const { position, meshId } = useSelector((state: any) => state.meshTools.materialTool);
   const [selectedMaterial, setSelectedMaterial] = useState('');

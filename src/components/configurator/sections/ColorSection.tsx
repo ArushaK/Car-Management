@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/store';
 import { setSelectedColor } from '@/store/actions/configuratorSlice';
-import { setCarColor, setDriverColor, addCustomColor, removeCustomColor, removeDefaultColor, restoreDefaultColors, setCarPaintFinish } from '@/store/actions/carColorSlice';
+import { setCarColor, setDriverColor, addCustomColor, removeCustomColor, removeDefaultColor, setCarPaintFinish } from '@/store/actions/carColorSlice';
 import { showNotification } from '@/store/actions/notificationSlice';
 import { 
   Box, 
@@ -32,14 +32,14 @@ import PersonIcon from '@mui/icons-material/Person';
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 
 // Default colors for reference only (actual values are stored in Redux)
-const defaultColors = [
-  { id: 'black', name: 'Midnight Black', hex: '#1A1A1A' },
-  { id: 'red', name: 'Racing Red', hex: '#E63946' },
-  { id: 'white', name: 'Pure White', hex: '#F8F9FA' },
-  { id: 'silver', name: 'Silver Metallic', hex: '#CED4DA' },
-  { id: 'blue', name: 'Electric Blue', hex: '#4361EE' },
-  { id: 'yellow', name: 'Solar Yellow', hex: '#FFD166' },
-];
+// const defaultColors = [
+//   { id: 'black', name: 'Midnight Black', hex: '#1A1A1A' },
+//   { id: 'red', name: 'Racing Red', hex: '#E63946' },
+//   { id: 'white', name: 'Pure White', hex: '#F8F9FA' },
+//   { id: 'silver', name: 'Silver Metallic', hex: '#CED4DA' },
+//   { id: 'blue', name: 'Electric Blue', hex: '#4361EE' },
+//   { id: 'yellow', name: 'Solar Yellow', hex: '#FFD166' },
+// ];
 
 // Paint finish options
 const paintFinishOptions: {id: PaintFinish, name: string, description: string}[] = [
@@ -292,7 +292,7 @@ const ColorSelector: React.FC = () => {
 
   // Modified handleTargetChange to update selected color when switching targets
   const handleTargetChange = (
-    event: React.MouseEvent<HTMLElement>,
+    _: React.MouseEvent<HTMLElement>,
     newTarget: ColorTarget | null
   ) => {
     if (newTarget !== null) {

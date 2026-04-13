@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/store';
 import { 
-  setSelectedColor, 
   setSelectedWheels, 
   resetConfigurator,
   removePlacedDecal,
@@ -113,7 +112,7 @@ const ColorRow = styled(Box)(({ theme }) => ({
 }));
 
 // Add a ColorSwatchComponent for car part colors
-const ColorSwatchComponent = styled(Box)<{ colorHex: string }>(({ colorHex, theme }) => ({
+const ColorSwatchComponent = styled(Box)<{ colorHex: string }>(({ colorHex }) => ({
   width: 32,
   height: 32,
   borderRadius: '50%',

@@ -17,7 +17,6 @@ import { removeDecal } from '@/services/threeJS/decalService';
 import store from '@/store';
 import { showRotateTool, showResizeTool, startDragging } from '@/store/actions/decalToolsSlice';
 import { showColorTool, showMaterialTool } from '@/store/actions/meshToolsSlice';
-import { setRotateMode, setScaleMode } from '@/store/actions/configuratorSlice';
 // Define handler functions for different context menu actions
 export const contextMenuHandlers = {
   // Decal-specific actions

@@ -347,7 +347,6 @@ const DriverModel = ({ config }: { config: { driverColor: string, placedDecals?:
             <DriverDecal 
               key={`driver-decal-${index}`}
               decal={decal}
-              meshes={driverMeshes}
               driverPosition={driverPosition}
               driverRotation={driverRotation}
             />
@@ -360,13 +359,11 @@ const DriverModel = ({ config }: { config: { driverColor: string, placedDecals?:
 
 // Special component for driver decals with improved positioning
 const DriverDecal = ({ 
-  decal, 
-  meshes,
+  decal,
   driverPosition,
   driverRotation
 }: { 
   decal: any, 
-  meshes: THREE.Mesh[],
   driverPosition: THREE.Vector3,
   driverRotation: THREE.Euler
 }) => {

@@ -19,7 +19,7 @@ interface DecalModeSwitcherProps {
 
 type mode = 'rotate' | 'scale' | 'move'
 
-const DecalModeSwitcher: React.FC<DecalModeSwitcherProps> = ({ sceneRef }) => {
+const DecalModeSwitcher: React.FC<DecalModeSwitcherProps> = ({ }) => {
   const dispatch = useDispatch();
   const [mode, setMode] = useState<mode>('scale');
   const { isInEditMode } = useSelector((state: RootState) => state.configurator);
@@ -29,7 +29,7 @@ const DecalModeSwitcher: React.FC<DecalModeSwitcherProps> = ({ sceneRef }) => {
   const screenPosition = selection.screenPosition;
 
   // Use draggable only in edit mode
-  const { elementRef, position, setPosition } = useDraggable({
+  const { elementRef } = useDraggable({
     id: 'decal-mode-switcher',
     initialPosition: screenPosition || { x: 100, y: 100 },
     disabled: !isInEditMode,

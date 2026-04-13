@@ -339,7 +339,7 @@ export function useDecalManager({ outerMeshes, parentModel }: UseDecalManagerPar
         }
       };
 
-      const onMouseUp = (event: MouseEvent) => {
+      const onMouseUp = () => {
         if (!decalMeshRef.current || !decalTools.targetDecalId) return;
 
         scene.remove(decalMeshRef.current); // Remove preview

@@ -25,7 +25,7 @@ diff = diff[:8000]
 client = OpenAI(api_key=openai_api_key)
 
 response = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-3.5-turbo",
     max_tokens=2000,
     messages=[
         {

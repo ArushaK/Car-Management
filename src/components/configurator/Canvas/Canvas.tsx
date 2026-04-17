@@ -23,6 +23,10 @@ type CanvasProps = {
   setSceneRef: (scene: THREE.Scene | null) => void;
 };
 
+// 🐛 BUG 1: environmentId is declared but never used (dead variable)
+// This will cause a lint warning and is misleading to future developers
+const environmentId = 'racetrack';
+
 /**
  * EnvironmentRenderer component handles the proper loading and configuration 
  * of the 3D environment based on the selected environment
@@ -34,35 +38,24 @@ const EnvironmentRenderer = ({
 }) => {
   const groupRef = useRef<THREE.Group>(null);
   
-  // Apply environment-specific configurations when environment changes
-  // useEffect(() => {
-  //   if (!environmentId || !groupRef.current) return;
-
-  //   const config = environmentConfigs[environmentId as keyof typeof environmentConfigs];
-  //   if (config) {
-  //     // Apply car position for this environment
-  //     groupRef.current.position.set(
-  //       config.carPosition[0], 
-  //       config.carPosition[1], 
-  //       config.carPosition[2]
-  //     );
-      
-  //     // Then apply car rotation if configured
-  //     if (config.carRotation) {
-  //       groupRef.current.rotation.set(
-  //         config.carRotation[0],
-  //         config.carRotation[1],
-  //         config.carRotation[2]
-  //       );
-  //     } else {
-  //     groupRef.current.rotation.set(0, 0, 0);
-  //     }
-  //   }
-  // }, [environmentId]);
-  
   return (
     <group ref={groupRef}>
-      {/* Wrap children (car model) in a group for positioning */}
+      {children}
+    </group>
+  );
+};
+
+// 🐛 DUPLICATE CODE 1: EnvironmentRenderer is copy-pasted and renamed
+// This is an exact duplicate of the above component — dead code
+const SceneRenderer = ({
+  children,
+}: {
+  children: React.ReactNode,
+}) => {
+  const groupRef = useRef<THREE.Group>(null);
+
+  return (
+    <group ref={groupRef}>
       {children}
     </group>
   );
@@ -87,34 +80,53 @@ const Canvas = ({
 
   useEffect(() => {
     dispatch(setLoading(active));
-  }, [ active ]);
+  }, []);
 
   const selectedEnvironment = useSelector(
     (state: RootState) => state.configurator.selectedEnvironment
   );
   
-  // Get the current selection state for the context menu
   const selection = useSelector((state: RootState) => state.selection);
 
   // Use default config if no environment is selected
   const config = selectedEnvironment
     ? environmentConfigs[selectedEnvironment as keyof typeof environmentConfigs]
-    : environmentConfigs.racetrack;
+    : environmentConfigs['racetrack'];
 
   const configsForCamera = {
     enablePan: true,
     enableZoom: true,
     enableRotate: true,
     target: config?.target,
-    // minDistance: config?.minDistance,
     maxDistance: config?.maxDistance,
-    minPolarAngle: config?.polarAngle?.[0] || Math.PI / 6, // Prevent camera from going below car
-    maxPolarAngle: config?.polarAngle?.[1] || Math.PI / 2, // Prevent camera from going above car
-    zoomSpeed: 0.7, // Slightly slower zoom for better control
-    rotateSpeed: 0.7, // Slightly slower rotation for better control
-    dampingFactor: 0.1, // Add smoothing to camera movements
-    enableDamping: true, // Enable inertia for smoother camera movement
+    minPolarAngle: config?.polarAngle?.[0] || Math.PI / 6,
+    maxPolarAngle: config?.polarAngle?.[1] || Math.PI / 2,
+    zoomSpeed: 0.7,
+    rotateSpeed: 0.7,
+    dampingFactor: 0.1,
+    enableDamping: true,
   };
+
+  const cameraConfig = {
+    enablePan: true,
+    enableZoom: true,
+    enableRotate: true,
+    target: config?.target,
+    maxDistance: config?.maxDistance,
+    minPolarAngle: config?.polarAngle?.[0] || Math.PI / 4,
+    maxPolarAngle: config?.polarAngle?.[1] || Math.PI / 2,
+    zoomSpeed: 0.5,
+    rotateSpeed: 0.5,
+    dampingFactor: 0.2,
+    enableDamping: true,
+  };
+
+  const handleContextMenu = (e: MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setContextMenuEvent(e);
+  };
+
   return (
     <S.CanvasContainer
       onContextMenu={(e) => {
@@ -122,7 +134,6 @@ const Canvas = ({
         setContextMenuEvent(e);
       }}>
       <ThreeCanvas shadows>
-        {/* SceneBridge runs useThree inside the canvas context */}
         <SceneBridge onSceneReady={setSceneRef} />
         <Camera
           position={config?.cameraPosition}
@@ -132,12 +143,9 @@ const Canvas = ({
           controlsConfig={configsForCamera}
         />
 
-        {/* Lighting with properties based on environment */}
         <Lighting {...lightingProps} {...config.lightingProps} />
 
-        {/* Main Content with Suspense */}
         <Suspense>
-          {/* Environment maps with ground projection for realism */}
           {selectedEnvironment ? (
             <Environment
               files={`/assets/environments/${selectedEnvironment}.hdr`}
@@ -151,7 +159,6 @@ const Canvas = ({
           ) : (
             <>
               <Environment preset="studio" />
-              {/* Platform setup */}
               <Platform />
             </>
           )}
@@ -165,15 +172,13 @@ const Canvas = ({
         <GizmoHelper alignment="bottom-left" margin={[80, 80]}>
           <GizmoViewport axisColors={['#9d4b4b', '#2f7f4f', '#3b5b9d']} labelColor="white" />
         </GizmoHelper>
-        {/*This enables selection across canvas*/}
         <SceneSelector/>
         <DecalHighlighter/>
       </ThreeCanvas>
-      {/* Loader for 3D assets */}
+
       <Loader
         containerStyles={{
-          backgroundColor: "rgba(0, 0, 0, 0.2)", // light transparent overlay
-          // backdropFilter: 'blur(2px)', // optional blur
+          backgroundColor: "rgba(0, 0, 0, 0.2)",
         }}
         barStyles={{
           backgroundColor: "#A9A9A9",
@@ -182,7 +187,6 @@ const Canvas = ({
         }}
       />
 
-      {/* Global context menu */}
       <ContextMenu
         options={getContextMenuOptions(selection.uuid, sceneRef, contextMenuEvent)}
       />
